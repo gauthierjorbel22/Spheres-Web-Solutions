@@ -1,0 +1,620 @@
+.leftTop {
+    float: left;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    left: 0.5%;
+    top: 0.5%;
+    position: absolute;
+    height: 14%;
+    overflow: hidden;
+    background-color: lightgrey;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.leftMiddleTop {
+  color: white;
+  text-shadow: black 1px 1px;
+  float: left;
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 0.5%;
+  top: 15%;
+  position: absolute;
+  height: 5%;
+  overflow: hidden;
+  text-align: center;
+  background-color: darkslategray;
+
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.LeftMiddleMiddleTop{
+  color: white;
+  text-shadow: black 1px 1px;
+  float: left;
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 0.5%;
+  top: 21%;
+  position: absolute;
+  height: 5%;
+  overflow: hidden;
+  text-align: center;
+    background-color: #c28e00;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.LeftMiddleMiddleBottom{
+color: white;
+  text-shadow: black 1px 1px;
+  float: left;
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 0.5%;
+  top: 26.5%;
+  position: absolute;
+  height: 5%;
+  overflow: hidden;
+  text-align: center;
+    background-color: #c28e00;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+
+.leftMiddleBottom {
+  color: white;
+  text-shadow: black 1px 1px;
+  float: left;
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 0.5%;
+  top: 32.5%;
+  position: absolute;
+  height: 5%;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(2, 92, 122);
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+
+.leftBottom {
+  float: left;
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.0px;
+  left: 0.5%;
+  top: 38.3%;
+  position: absolute;
+  height: 57.2%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+#RecentC{
+    word-wrap;
+    word-break: break-all;
+    white-space:normal;
+}
+
+.rightBottomChat {
+    float: right;
+    width: 83%;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    right: 0.5%;
+    bottom: 12%;
+    position: absolute;
+    height: 54.75%;
+    overflow: auto;
+    background-color: snow;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+
+}
+.rightBottomTextArea {
+    float: right;
+    width: 83%;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    right: 0.5%;
+    bottom: 4%;
+    position: absolute;
+    height: 8%;
+    overflow: auto;
+    background-color: rgb(221, 245, 253);
+
+    vertical-align: middle;
+    text-align: center;
+
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+
+}
+
+
+.rightTop {
+    color: white;
+    text-shadow: black 2px 1.5px 1px;
+    float: right;
+    width: 83%;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    right: 0.5%;
+    bottom: 66.75%;
+    position: absolute;
+    height: 22.75%;
+    overflow: auto;
+    background-color: rgb(11, 98, 119)
+}
+
+
+/*This is the customization for the footer*/
+footer {
+    background-color: rgb(9, 94, 128);
+    width: 100%;
+    height: 3.8%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    text-shadow: 2px 1px 2px black;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+
+html {
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-color: whitesmoke;
+}
+/* home button */
+.toprightHome {
+    overflow: hidden;
+    float: right;
+    width: 10%;
+    border-width: 1.5px;
+    height: 20%;
+    right: 70%;
+    top: 2%;
+    position: absolute;
+}
+
+.toprightHome:hover {
+    transition: 0.25s;
+    transform: scale(1.2);
+}
+
+/* contact button */
+.toprightContacts {
+    overflow: hidden;
+    float: right;
+    width: 14%;
+
+    border-width: 1.5px;
+    height: 8%;
+    right: 54%;
+    top: 2%;
+    position: absolute;
+}
+
+.toprightContacts:hover {
+    transition: 0.25s;
+    transform: scale(1.2);
+}
+/* help button */
+.toprightHelp {
+    overflow: hidden;
+    float: right;
+    width: 14%;
+    border-width: 1.5px;
+    height: 8%;
+    right: 38%;
+    top: 2%;
+    position: absolute;
+}
+
+.toprightHelp:hover {
+    transition: 0.25s;
+    transform: scale(1.2);
+}
+/* main logo */
+.toprightLogo {
+    overflow: hidden;
+    float: right;
+    width: 14%;
+
+
+    border-width: 1.5px;
+    height: 8%;
+    right: 22%;
+    top: 2%;
+    position: absolute;
+
+}
+/* logout button */
+.toprightLogout {
+    overflow: hidden;
+    float: right;
+    width: 14%;
+
+    border-width: 1.5px;
+    height: 8%;
+    right: 5.5%;
+    top: 2%;
+    position: absolute;
+}
+
+.toprightLogout:hover {
+    transition: 0.25s;
+    transform: scale(1.2);
+}
+/*this is for the recent chat */
+.leftMiddle {
+    background-color: #2992fc;
+
+    height: 3.8%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    text-shadow: 2px 1px 2px white;
+    text-align: center;
+    vertical-align: middle;
+
+}
+/*recent chat hover*/
+.leftMiddle:hover {
+    background-color: lightskyblue;
+
+}
+
+#groupTitle {
+    text-align: center;
+    background-color: rgb(103, 202, 235);
+    text-shadow: white 1px 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5abcfd;
+}
+
+.leftAlignMessage {
+
+    background-color: rgb(9, 123, 151);
+    float: left;
+    width: 60%;
+    margin: 1em;
+    padding: 0.5em;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1.5px;
+    border-radius: 20px;
+    left: 5%;
+    position: relative;
+    overflow: auto;
+
+}
+
+
+.rightAlignMessage {
+    float: right;
+    background-color: rgb(9, 123, 151);
+    width: 60%;
+    margin: 1em;
+    padding: 0.5em;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 1.5px;
+    right: 5%;
+    position: relative;
+    overflow: auto;
+}
+
+.leftMessageContent {
+    width: 93.3%;
+    max-width: 93.3%;
+    float: left;
+    left: 25%;
+    word-wrap;
+    word-break: break-all;
+    white-space:normal;
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+    /* display: inline-flex; */
+
+}
+
+.rightMessageContent {
+    width: 93.3%;
+    float: right;
+    right: 25%;
+    word-wrap;
+    word-break: break-all;
+    white-space:normal;
+    background-color: lightcyan;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+}
+.leftMessageInfo {
+
+    border-style: double;
+    background-color: whitesmoke;
+    border-color: black;
+    word-wrap;
+    word-break: break-all;
+    white-space:normal;
+    border-width: 1.5px;
+    width: 50%;
+    float: left;
+    left: 25%;
+}
+.rightMessageInfo {
+    border-style: solid;
+    background-color: #ffcc66;
+    border-color: black;
+    word-wrap;
+    word-break: break-all;
+    white-space:normal;
+    border-width: 1.5px;
+    width: 50%;
+    float: right;
+    right: 25%;
+}
+
+.Loading {
+    margin: 10% auto 40px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: bottom;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+.Loading .Loading-txt {
+    color: #0663e9;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+.Loading .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.Loading .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0668f4;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+.Loading .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+}
+.Loading .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+}
+.Loading .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+}
+.Loading .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.Loading .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.Loading .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+    0,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-foldCubeAngle {
+    0,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+a {
+    color: goldenrod;
+    /* text-shadow: 1px white 2px white; */
+};
+/* a:hover {
+    color: #0663e9;
+    /* text-shadow:  white; */
+}
+*/ .rightBottomTextArea {
+height: 50px;
+display: inline-table;
+/* background-color: rgb(11, 98, 119); */
+}
+#textArea {
+
+color: rgb(196, 75, 75);
+height: 70px;
+text-align: top;
+resize: none;
+
+}
+#messageVisible {
+color: black;
+text-shadow: 1px white;
+height: 50px;
+background-color: lightskyblue;
+text-align: top;
+border-style: ridge;
+border-radius: 15px;
+border-color: black;
+
+
+}
+
+#sendB {
+height: 35px;
+color: white;
+background-color: darkblue;
+border-style: ridge;
+border-color: whitesmoke;
+border-radius: 10px;
+right: 60px;
+}
+#sendB:hover {
+color: rgb(9, 118, 155);
+background-color: whitesmoke;
+transition: 0.3s;
+}tr:hover {
+  /*background-color: whitesmoke;
+  */color: darkblue;
+  text-shadow: 1px black;
+
+}
+a {
+  color: #e60000;
+
+  text-shadow: 2px black;
+  text-decoration: none;
+/*text-shadow: 1px white;
+*/}
+
+a:hover {
+  color: darkgoldenrod;
+  text-shadow: 1px black;
+}
+
+/*table{
+  background-color: snow;
+}*/
+#groupCounter{
+color:#ff0000;
+text-decoration: none;
+}
+#personalCounter{
+color:#ff0000;
+
+text-decoration: none;
+}

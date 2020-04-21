@@ -1,0 +1,73 @@
+/*$('#ChatList').empty();
+
+$.getJSON('contactListAppend.php', function(rowz) {
+
+window.console && console.log('JSON from update Received');
+			window.console && console.log(rowz);	
+	
+for (var i = 0; i < rowz.length; i++) {
+						arow = rowz[i];
+						
+$('#ChatList').append( '<tr>\
+								<td style = "width:6%; height:6%;margin:0px; padding:0px; ">\
+								<center> \
+								<br><strong>\
+								<a href ="contactMessagePage.php?contactId= ');
+
+$('#ChatList').append( arow['userId'] );
+
+ $('#ChatList').append('">\
+								<img src = "Photos/');
+
+
+ $('#ChatList').append(arow['contactsignInId']);
+
+
+ $('#ChatList').append('.jpg" style = "width:100%; height: 100%;">\
+								</a>\
+								</strong>\
+								</center></td>\
+								<td><center> \
+								<br><strong>\
+								<a href = "contactMessagePage.php?contactId='); 
+
+
+
+  $('#ChatList').append(arow['userId'] );
+
+
+
+    $('#ChatList').append('">' );
+
+
+     $('#ChatList').append(arow['contactName'] );  $('#ChatList').append( '</a>\
+								</strong>\
+								</center></td>\
+								<td><center> \
+								<br><strong>\
+								New Messages:  \
+								<a href = "contactMessagePage.php?contactId=' ); 
+
+	  $('#ChatList').append( arow['userId']);  
+
+	  $('#ChatList').append( '" style="text-decoration: none; color:red;">\
+								' ); 
+
+	 $('#ChatList').append(arow['unreadNotifi']);  
+
+	 $('#ChatList').append( '</a>\
+								</strong></center></td><td><center><br>\
+								<strong>');  
+
+	 $('#ChatList').append( arow['contactPos'] );  
+
+	 $('#ChatList').append( ' [');  
+
+	 $('#ChatList').append(arow['contactDep'] );  
+
+	 $('#ChatList').append( '] </strong></center></td></tr>');	
+
+}
+
+
+});*/

@@ -1,0 +1,145 @@
+#back{
+  float: right;
+  top:11%;
+  left:20%;
+  width:57%;
+  height:90%;
+  position: absolute;
+  top:20px;
+  text-shadow: 2px 1px 2px rgb(221, 228, 231);
+  color:rgb(146, 8, 31);
+ 
+  /* background-image: url("logout.gif"); */
+  
+  /* float: inline-start; */
+/* 
+   text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;  */
+}
+
+#top {
+    position: absolute;
+left:5%;
+top:5%;
+width:90%;
+height:20%;
+
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+/* for home button */
+#home {
+  position: absolute;
+  right:33%;
+  top:25%;
+  width:100%;
+  height:35%;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+#home:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+#out {
+    position: absolute;
+left:33%;
+top:60%;
+width:100%;
+height:35%;
+max-height: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+}
+#out:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  
+}
+
+/*This is the customization for the footer*/
+footer{
+  background-color:rgb(24, 119, 156);
+  width:100%;
+  height:3.8%;
+  right: 0px; 
+  bottom:0px;
+  position: absolute;
+  text-shadow: 2px 1px 2px black;
+  color:white;
+  text-align: center; 
+  
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+html{
+    height:100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+   text-align: center;
+   display: flex;
+   justify-content: center; /* align horizontal */
+   align-items: center; /* align vertical */
+   background-image: url("back.jpg");
+  background-repeat: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+  /* background-color:rgb(257, 253, 253); */
+ 
+}
+ /* Make the title of the page glowing */
+.glow{
+  /* font-family: cursive; */
+  font-size: 30px;
+  color: rgb(24, 119, 156);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  /* color:darkblue;
+  text-shadow: 1px lightblue; */
+ 
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px lightblue, 0 0 40px rgb(46, 111, 185), 0 0 50px lightseagreen, 0 0 60px darkblue, 0 0 70px goldenrod;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px lightblue, 0 0 40px rgb(10, 82, 141), 0 0 50px steelblue, 0 0 60px darkblue, 0 0 70px darkolivegreen, 0 0 80px rgb(24, 119, 156);
+  }
+
+}
+/* customize the yes and no buttons */
+.yes,.no{
+  color: rgb(24, 119, 156);
+  text-shadow: 1px red 2px cyan ;
+}
+.yes:hover{
+  color: red;
+}
+.no:hover{
+  color:black;
+
+}
